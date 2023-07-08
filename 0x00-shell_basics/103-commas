@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ampx --group-directories-first -r
+ls -ampx --group-directories-first
