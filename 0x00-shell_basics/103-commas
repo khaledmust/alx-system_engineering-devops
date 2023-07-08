@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -apX --group-directories-first -m
+ls -ap --group-directories-first -m
