@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -alR | awk '/\.gif$/ {print}'
+ls -aR | awk '/\.gif$/ {print}'
