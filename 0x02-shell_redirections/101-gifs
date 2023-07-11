@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -aR | awk '/\.gif$/ {print}' | tr ".gif" " "
+ls -aR | awk '/\.gif$/ {print}' | sed -n 's/\.gif$//p'
